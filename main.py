@@ -19,7 +19,7 @@ for i in circles[0, :]:
 	cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 2)
 
 
-cv2.imshow('Hole.jpg', cimg)
+cv2.imshow('Soyabin.jpg', cimg)
 
 print("Holes are detected")
 print("The Disease is Septoria Leaf Spot")
